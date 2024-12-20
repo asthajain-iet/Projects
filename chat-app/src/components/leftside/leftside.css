@@ -1,0 +1,112 @@
+.ls{
+    height: 727px;
+    width: 280px;
+    background-color: rgb(6, 53, 135);
+    color: white;
+}
+.ls-top{
+    padding: 20px 10px;
+}
+.ls-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ls-nav .logo{
+    max-width: 30px;
+}
+.ls-nav .ls-menu img{
+    max-height: 20px;
+    cursor: pointer;
+
+}
+.ls-menu{
+    position: relative;
+}
+.sub-menu{
+    display: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    top: 100%;
+    right: 0;
+    position: absolute;
+    width: 130px;
+    border-radius: 8px;
+    
+
+}
+.ls-menu:hover .sub-menu{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 10px;
+      cursor: pointer;
+}
+.ls-search{
+    display: flex;
+    margin-top: 10px;
+    background-color: rgb(157, 198, 236);
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.ls-search input{
+    flex:1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+.ls-search input::placeholder{
+    color: white;
+}
+.ls-search .search{
+    max-width: 25px;
+    margin-right: 5px;
+}
+.ls-list{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    overflow-y: scroll;
+}
+ .profile-ls{
+    width: 40px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+.friends{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.friends div{
+    display: flex;
+    flex-direction: column;
+
+}
+.friends div span{
+    font-size: 12px;
+    color :#cecdcd;
+    padding-top: 2px;
+}
+.friends:hover{
+    background-color: rgb(40, 103, 213);  
+}
+.friends:hover span{
+    color: white;
+}
+.friends-add-user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.friends-add-user:hover{
+    background-color: rgb(40, 103, 213); 
+}

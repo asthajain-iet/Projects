@@ -1,0 +1,16 @@
+
+   
+.chat{
+    
+    background:  linear-gradient(rgb(150, 213, 233),rgb(47, 110, 164));
+    display: grid;
+    place-items:center;
+    
+}
+.chat-container{
+    
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
+}

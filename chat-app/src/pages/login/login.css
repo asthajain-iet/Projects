@@ -1,0 +1,103 @@
+.login{
+    min-height: 100vh;
+    background: url(../../assets/home1.svg) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+
+}
+.sidelogo{
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+.sidelogo2{
+   margin-top: 140px;
+   margin-right: 300px;
+   margin-left: 0;
+   opacity: 50%;
+}
+.login-form{
+    height: 101vh;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 50px 30px;
+    
+    background-color: white;
+}
+h2{
+    align-content: center;
+    margin-left: 230px;
+    font-size: 50px;
+    color: rgb(2, 68, 109);
+}
+#username{
+    display: block;
+    margin-top: 80px;
+    height: 40px;
+    width: 300px;
+    margin-left: 180px;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 2px 2px rgb(131, 131, 131);
+    padding: 10px;
+}
+#email{
+    height: 40px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 180px;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 2px 2px rgb(131, 131, 131);
+    padding: 10px;
+}
+#pass{
+    height: 40px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 180px;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 2px 2px rgb(131, 131, 131);
+    padding: 10px;
+}
+a{
+    text-decoration:none;
+    color: rgb(6, 105, 49);
+    font-size: 15px;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+a:hover{
+    color: purple;
+}
+.already span{
+    cursor: pointer;
+    color: rgb(146, 82, 4);
+}
+.terms{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.login button{
+    margin-top: 30px;
+    height: 40px;
+    width: 200px;
+    margin-left: 220px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-color: white;
+    box-shadow: 2px 2px rgb(102, 102, 159);
+    background-color: rgb(24, 94, 207);
+    color: white;
+}
+.already{
+    margin-left: 200px;
+    margin-top: 30px;
+}
